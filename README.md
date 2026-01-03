@@ -9,7 +9,7 @@ This project helps users estimate a fair price for a laptop by analyzing histori
 ## 📌 Project Overview
 
 - Built a machine learning model to predict laptop prices
-- Used **Multiple Linear Regression / XGBoost** for price estimation
+- Used **Multiple Linear Regression /  for price estimation
 - Developed an interactive **Streamlit web application** for real-time predictions
 - Model takes laptop configuration as input and outputs the predicted price
 
@@ -22,7 +22,7 @@ This project helps users estimate a fair price for a laptop by analyzing histori
   - NumPy  
   - Pandas  
   - Scikit-learn  
-  - XGBoost  
+  -   
   - Streamlit  
 - **Tools:**  
   - VS Code  
