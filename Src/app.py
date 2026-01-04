@@ -8,7 +8,7 @@ import pickle
 import os
 import pickle
 
-CURRENT_DIR = os.path.dirname(os.path.abspath(__file__))
+CURRENT_DIR = os.path.dirname(os.path.abspath(__file__)) 
 BASE_DIR = os.path.dirname(CURRENT_DIR)
 
 MODEL_PATH = os.path.join(BASE_DIR, "model", "laptop.pkl")
