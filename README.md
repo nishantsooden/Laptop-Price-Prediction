@@ -1,3 +1,20 @@
+Laptop_Project/
+│
+├── data/
+│ └── laptop_part2_100k.csv
+│
+├── Model/
+│ └── laptop.pkl
+│
+├── Notebooks/
+│ └── laptop.ipynb
+│
+├── Src/
+│ └── app.py
+│
+├── requirements.txt
+├── README.md
+└── .gitignore
 #  Laptop Price Prediction
 
 Thgite Laptop Price Prediction project is a machine learning application that predicts the selling price of laptops based on their hardware specifications, brand, and performance-related features.

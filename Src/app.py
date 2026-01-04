@@ -2,9 +2,20 @@ import streamlit as st
 import pickle
 import pandas as pd
 
-with open("laptop.pkl", "rb") as f:
-    model = pickle.load(f)
+import os
+import pickle
 
+import os
+import pickle
+
+CURRENT_DIR = os.path.dirname(os.path.abspath(__file__))
+BASE_DIR = os.path.dirname(CURRENT_DIR)
+
+MODEL_PATH = os.path.join(BASE_DIR, "model", "laptop.pkl")
+
+model = pickle.load(open(MODEL_PATH, "rb"))
+
+model = pickle.load(open(MODEL_PATH, "rb"))
 st.set_page_config(page_title="Laptop Price Prediction", layout="centered")
 st.title("💻 Laptop Price Prediction")
 
