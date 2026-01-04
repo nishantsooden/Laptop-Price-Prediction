@@ -1,20 +1,3 @@
-Laptop_Project/
-│
-├── data/
-│ └── laptop_part2_100k.csv
-│
-├── Model/
-│ └── laptop.pkl
-│
-├── Notebooks/
-│ └── laptop.ipynb
-│
-├── Src/
-│ └── app.py
-│
-├── requirements.txt
-├── README.md
-└── .gitignore
 #  Laptop Price Prediction
 
 Thgite Laptop Price Prediction project is a machine learning application that predicts the selling price of laptops based on their hardware specifications, brand, and performance-related features.
@@ -26,7 +9,7 @@ This project helps users estimate a fair price for a laptop by analyzing histori
 ## 📌 Project Overview
 
 - Built a machine learning model to predict laptop prices
-- Used **Multiple Linear Regression /  for price estimation
+- Used **Multiple Linear Regression   for price estimation
 - Developed an interactive **Streamlit web application** for real-time predictions
 - Model takes laptop configuration as input and outputs the predicted price
 
@@ -74,6 +57,25 @@ This project helps users estimate a fair price for a laptop by analyzing histori
 7. Deployment using Streamlit  
 
 ---
+📂 Project Structure
+
+Laptop_Project/
+│
+├── data/
+│ └── laptop_part2_100k.csv
+│
+├── Model/
+│ └── laptop.pkl
+│
+├── Notebooks/
+│ └── laptop.ipynb
+│
+├── Src/
+│ └── app.py
+│
+├── requirements.txt
+├── README.md
+└── .gitignore
 
 ## 🚀 How to Run the Project Locally
 
@@ -81,3 +83,14 @@ This project helps users estimate a fair price for a laptop by analyzing histori
 ```bash
 git clone https://github.com/nishantsooden/Laptop-Price-Prediction.git
 cd Laptop-Price-Prediction
+
+2️⃣ Create and activate virtual environment (optional)
+
+python -m venv myenv
+myenv\Scripts\activate
+
+3️⃣ Install dependencies
+pip install -r requirements.txt
+
+4️⃣ Run Streamlit app
+streamlit run Src/app.py
